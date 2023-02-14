@@ -5,46 +5,37 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Currículo Vitae</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-		
-		body {
-			font-family: 'Roboto', sans-serif;
-			width: 100%;
-			min-height: 100vh;
-			background-color: #303030;
-			color: #FFF;
-			margin: 0;
-		}
-
-		h1, h2 {
-			color:#8b87e9
-		}
-
-		img {
-			width: 100px;
-			height: 100px;
-			object-fit: cover;
-			border-radius: 50%;
-			box-shadow: 0 0 5px 1px rgba(0 0 0 / 0.7);
-			margin: 2rem 0 0 2rem;
-		}
-
-		section {
-			padding: 2rem;
-		}
-
-	</style>
+	<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 	<header>
 		<img src="assets/profile.jpg" alt="Foto de perfil">
+		<nav>
+			<a href="#resumo">
+				Resumo
+			</a>
+			<a href="#experiencia">
+				Experiência
+			</a>
+			<a href="#educacao">
+				Educação
+			</a>
+			<a href="#competencias">
+				Competências
+			</a>
+			<a href="#habilidades">
+				Habilidades
+			</a>
+		</nav>
 	</header>
-	<section class="resumo">
+	<section id="resumo">
 		<h2>Resumo</h2>
 		<hr>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias soluta amet dicta temporibus fugit expedita suscipit eligendi ratione veniam! Repellat consectetur libero numquam est, quod quis laboriosam, similique fugiat maxime ipsam voluptatum adipisci eius, fuga iusto nihil dignissimos aut! Magni, impedit cumque. Fugiat quae fuga esse neque doloremque quod nemo dolore est, quisquam ex. Dignissimos ipsum adipisci accusamus? Libero, iure!
+		</p>
 	</section>
-	<section class="experiencia">
+	<section id="experiencia">
 		<h2>Experiência</h2>
 		<hr>
 		<p>
@@ -57,21 +48,42 @@
 			Trocar de toners de impressoras, papéis de impressão, configurações e ajustes em máquinas numa repartição pública.
 		</p>
 	</section>
-	<section class="educacao">
+	<section id="educacao">
 		<h2>Educação</h2>
 		<hr>
-		<p><strong>1ª e 2ª série</strong>: EEB Profª. Laura Lima.</p>
-		<p><strong>3ª e 4ª série</strong>: EEB Instituto Estadual de Educação.</p>
-		<p><strong>5ª série até 3º ano</strong>: EEB Colégio Policial Feliciano Nunes Pires.</p>
-		<p><strong>Curso Técnico em Informática</strong>: SENAI CTAI.</p>
-		<p><strong>Curso Técnico em Programação de Jogos Digitais</strong>: SENAI CTAI.</p>
-		<p><strong>Curso Superior em Análise e Desenvolvimento de Sistema - <em>Incompleto</em></strong>: SENAI CTAI.</p>
+		<p>
+			<strong>1ª e 2ª série</strong>: 
+			<a href="https://qedu.org.br/escola/42001129-eeb-prof-laura-lima" target="_blank">EEB Profª. Laura Lima</a>.
+		</p>
+		<p>
+			<strong>3ª e 4ª série</strong>: 
+			<a href="https://www.iee.sed.sc.gov.br" target="_blank">EEB Instituto Estadual de Educação</a>.
+		</p>
+		<p>
+			<strong>5ª série até 3º ano</strong>: 
+			<a href="http://www.cfnp.com.br" target="_blank">EEB Colégio Policial Feliciano Nunes Pires</a>.
+		</p>
+		<p>
+			<strong>Curso Técnico em Informática</strong>: 
+			<a href="https://sc.senai.br" target="_blank">SENAI CTAI</a>.
+		</p>
+		<p>
+			<strong>Curso Técnico em Programação de Jogos Digitais</strong>: 
+			<a href="https://sc.senai.br" target="_blank">SENAI CTAI</a>.
+		</p>
+		<p>
+			<strong>Curso Superior em Análise e Desenvolvimento de Sistema - <em>Incompleto</em></strong>: 
+			<a href="https://sc.senai.br" target="_blank">SENAI CTAI</a>.
+		</p>
 	</section>
-	<section class="competencias">
+	<section id="competencias">
 		<h2>Competências</h2>
 		<hr>
+		<p>Lorem ipsum dolor sit amet consectetur.</p>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga sint sit quo harum perferendis suscipit!</p>
+		<p>Lorem ipsum dolor sit amet.</p>
 	</section>
-	<section class="habilidades">
+	<section id="habilidades">
 		<h2>Habilidades</h2>
 		<hr>
 		<ul>
@@ -94,7 +106,6 @@
 			<li><strong>Inglês</strong>: avançado;</li>
 			<li><strong>Espanhol</strong>: iniciante;</li>
 		</ul>
-		<hr>
 	</section>
 </body>
 </html>
